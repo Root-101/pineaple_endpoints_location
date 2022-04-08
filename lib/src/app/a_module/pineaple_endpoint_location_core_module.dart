@@ -1,13 +1,14 @@
 import 'package:get/get.dart';
-
-import '../c_usecase_def/pineaple_endpoint_location_usecase_exporter.dart';
+import 'package:pineaple_endpoints_location/pineaple_endpoint_location_exporter.dart';
 
 class PineapleEndpointLocationCoreModule {
   static Future init() async {
     await DnDRepoModule.init();
 
     Get.put<PineapleEndpointLocationUseCase>(
-      DnDSubLevelProgressUseCaseImpl(DnDRepoModule.subLevelProgressRepo),
+      PineapleEndpointLocationUseCaseImpl(
+        Get.find<PineapleEndpointLocationRepo>(),
+      ),
     );
   }
 

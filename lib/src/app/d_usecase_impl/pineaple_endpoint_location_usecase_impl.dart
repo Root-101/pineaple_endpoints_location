@@ -3,7 +3,7 @@ import 'package:pineaple_endpoints_location/pineaple_endpoint_location_exporter.
 
 class PineapleEndpointLocationUseCaseImpl extends DefaultCRUDUseCase<
     PineapleEndpointLocationDomain,
-    DnDSubLevelProgressRepo> implements PineapleEndpointLocationUseCase {
-  PineapleEndpointLocationUseCaseImpl(DnDSubLevelProgressRepo repo)
+    PineapleEndpointLocationRepo> implements PineapleEndpointLocationUseCase {
+  PineapleEndpointLocationUseCaseImpl(PineapleEndpointLocationRepo repo)
       : super(repo: repo);
 }
