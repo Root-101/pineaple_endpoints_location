@@ -1,0 +1,54 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:8087254620721007246",
+      "lastPropertyId": "5:2388951820463734473",
+      "name": "PineapleEndpointLocationEntity",
+      "properties": [
+        {
+          "id": "1:4858428295870005534",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:2510787292787006616",
+          "name": "endpointName",
+          "type": 9,
+          "flags": 2080,
+          "indexId": "1:5771637309139823383"
+        },
+        {
+          "id": "3:864432469465022154",
+          "name": "endpointHostName",
+          "type": 9
+        },
+        {
+          "id": "4:2406897473252392298",
+          "name": "endpointPortNumber",
+          "type": 9
+        },
+        {
+          "id": "5:2388951820463734473",
+          "name": "endpointDescription",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "1:8087254620721007246",
+  "lastIndexId": "1:5771637309139823383",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
